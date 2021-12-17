@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamincas</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-size: 35px;
+            text-align: center;
+            color: brown;
+        }
+        p{
+            color: #000;
+            font-size: 20px;
+            font: normal Arial;
+        }
+        .container{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalho com imagens dinamicas</h1>
+    <p>Estudos com imagens dinamicas</p>
+    <div class="container">
+        <picture>
+            <!--Carregar a foto pequena-->
+            <source media="(max-width: 750px)" srcset="img/pequena.png" type="image/png">
+            <!--Carregar a fotos M-->
+            <source media="(max-width: 1050px)" srcset="img/media.png" type="image/png">
+            <!--Carregar a foto Grande-->
+            <img src="img/grande.png" alt="Foto Grande">
+        </picture>
+    </div>
+</body>
+</html>
