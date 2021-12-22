@@ -1,4 +1,9 @@
-
+h3{
+    color: brown;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
 /*Estilos das classes*/
 .botao-um{
     color: #fff;
