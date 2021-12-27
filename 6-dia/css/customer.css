@@ -1,0 +1,52 @@
+/*
+    Desenvolvido por: HospeSites
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+/*Estilos das classes*/
+.logo{
+    color: firebrick;
+}
+.nav-item a:hover{
+    color: firebrick;
+}
+.menu ul li a:hover{
+    color: firebrick;
+}
+/*Botão pesquisar*/
+.btn-outline-success{
+    color: firebrick;
+    border: solid 2px firebrick;
+    border-radius: 20px;
+}
+
+.banner{
+    display: flex;
+    background-image: url(../img/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  
+}
+.banner h2{
+    font-size: 25px;
+    margin: 190px 150px 0 465px;
+    color: firebrick;
+}
+.sobre h2{
+    text-align: center;
+    color: firebrick;
+}
+
+.contato h2{
+    text-align: center;
+    color: firebrick;
+}
