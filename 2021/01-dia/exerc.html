@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+</head>
+<body>
+
+    <hr>
+    <h2>Carregando Vídeos Local</h2>
+    <p>
+        Carregando vídeos no proprio servidor.
+    </p>
+    <video src="vd/convertido-01.m4v" width="500" controls></video>
+
+
+
+    <hr>
+    <h2>Segunda forma</h2>
+    <video width="500" poster="img/01.png" controls autoplay loop>
+        <!--Sequancia de vídeos, se não conpativel executar o próximo-->
+        <source src="vd/convertido-02.m4v" type="video/mp4">
+        <source src="vd/convertido-01.m4v" type="videos/mp4">
+        <p>Seu navegador não é conpatível para essae vídeos</p>
+    </video>
+
+    <h2>Videos incorporado</h2>
+
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h2>Videos Vimeo</h2>
+
+    <iframe src="https://player.vimeo.com/video/656583479?h=e8b7f06c52&color=00ff00&title=0&byline=0&portrait=0&badge=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/656583479">FLOATERS: The Big Number Two</a> from <a href="https://vimeo.com/iamjoeroberts">Joe Roberts</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>
