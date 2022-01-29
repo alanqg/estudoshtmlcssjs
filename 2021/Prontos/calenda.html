@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300;400;500;700;800&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Quicksand', sans-serif;
+        }
+        body{
+            background-origin: #f1fbff;
+        }
+        .calendar{
+            padding: 20px 40px;
+        }
+        .month-container{
+            gap: 40px;
+            justify-content: center;
+        }
+        .calendar .months-container .month-containe{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar"></div>
+
+
+
+<script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>  
+<script>    
+    /*Comando da biblioteca calendar*/
+    new Calendar(document.querySelector('.calendar'));
+</script>
+</body>
+</html>
