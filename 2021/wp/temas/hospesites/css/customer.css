@@ -1,0 +1,41 @@
+/*
+    Desenvolvido por: HospeSites
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Neonderthaw&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/*
+        Fonto seguntária para teste:
+        font-family: 'Neonderthaw', cursive;
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;    
+
+}
+h1, h2, h3, h3, h4, h5, h6{
+    font-family: 'Cabin', sans-serif;
+}
+span{
+    
+    font-size: 35px;
+    font-size: normal;
+    font-weight: 900;
+    color: brown;
+}
+header{
+    display: flex;
+}
+header ul{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 80px;
+  
+}
+header ul li{
+    list-style: none;
+    padding-left: 35px;
+}
