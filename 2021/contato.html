@@ -7,7 +7,18 @@
     <title>Contato</title>
 </head>
 <body>
-    <h1>Falo conosco</h1>
-    <button type="button">Fala conosco</button>
+    <h1>Botão para Enviar</h1>
+    <form action="/action_pagephp">
+        <label for="fname">Nome Completo</label>
+        <input type="text" id="fname" value="alan">
+        <br><br>
+        <input type="submit" value="Submit">
+        <p>
+            Se você clicar no botão "Enviar", os dados de formulário serão enviados para uma página chamada "/action_page.php
+        </p>
+        <p>
+            Observe que o valor do campo "Primeiro nome" não será submetido, pois o elemento de entrada não tem um atributo de nome.
+        </p>
+    </form>
 </body>
 </html>
