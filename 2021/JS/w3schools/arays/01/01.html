@@ -11,6 +11,10 @@
 		.img-2{
 			color: darkred;
 		}
+		.box-2 h2{
+		 color: tan;
+
+		}
 	</style>
 </head>
 <body>
@@ -25,32 +29,38 @@
 	</div>
 
 
-	<p id="demo"> 
+	<p id="demo-1"> 
 		Primeiro Exemplo para mudar o texto do paragrafo.
 	</p>
-	<button type="button" onclick='document.getElementById("demo").innerHTML = "Olá Mundo JS!"'>Clique para Mudar</button>
+	<button type="button" onclick='document.getElementById("demo-1").innerHTML = "Olá Mundo JS!"'>Clique para Mudar</button>
 
 
 
 
-	<h2>JS Segundo Exemplo</h2>
 
-	<p>
-		Js aceito as aspas simples e duplas
-	</p>
+	<div class="box-2">
+			<h2>JS Segundo Exemplo</h2>
 
-	<h3>O Que Js pode fazer?</h3>
-	<p>	
-		JS pode mudar valeres e atributos do HTML . No exemplo será alrerado o valor do atributo src da imagem
+			<p>
+				Js aceito as aspas simples e duplas
+			</p>
 
-	</p>
-	<button class="img-1" onclick="document.getElementById('mimagem').src='pic_bulbon.gif'">Ligar a Luz</button>
+			<h3>O Que Js pode fazer?</h3>
+			<p>	
+				JS pode mudar valeres e atributos do HTML . No exemplo será alrerado o valor do atributo src da imagem
 
-	<img id="mimagem" src="pic_bulboff.gif" style="width: 100px">
+			</p>
+			<button class="img-1" onclick="document.getElementById('mimagem').src='pic_bulbon.gif'">Ligar a Luz</button>
 
-	<button class="img-2" onclick="document.getElementById('mimagem').src='pic_bulboff.gif'">Desligar a Luz</button>
-	<script>
-		
-	</script>
+			<img id="mimagem" src="pic_bulboff.gif" style="width: 100px">
+
+			<button class="img-2" onclick="document.getElementById('mimagem').src='pic_bulboff.gif'">Desligar a Luz</button>
+	</div>
+
+	<div class="box-3">
+		<h3>O que JS pode fazer?</h3>
+		<p id="demo-1">Css dentro do js, mundando o tamanho da fonte.</p>
+		<button type="button" onclick="document.getElementById('demo-1').style.fontSize='35px'">Fonte com 35 px</button>
+	</div>
 </body>
 </html>
