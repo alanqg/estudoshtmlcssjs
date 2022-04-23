@@ -5,8 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Exemplos Simples JS - 01</title>
 	<style>
-		.box-1 p{
+		.img-1{
 			color: goldenrod;
+		}
+		.img-2{
+			color: darkred;
 		}
 	</style>
 </head>
@@ -41,11 +44,11 @@
 		JS pode mudar valeres e atributos do HTML . No exemplo será alrerado o valor do atributo src da imagem
 
 	</p>
-	<button onclick="document.getElementById('mimagem').src='pic_bulbon.gif'">Ligar a Luz</button>
+	<button class="img-1" onclick="document.getElementById('mimagem').src='pic_bulbon.gif'">Ligar a Luz</button>
 
 	<img id="mimagem" src="pic_bulboff.gif" style="width: 100px">
 
-	<button onclick="document.getElementById('mimagem').src='pic_bulboff.gif'">Desligar a Luz</button>
+	<button class="img-2" onclick="document.getElementById('mimagem').src='pic_bulboff.gif'">Desligar a Luz</button>
 	<script>
 		
 	</script>
