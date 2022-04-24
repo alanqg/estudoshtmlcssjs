@@ -46,8 +46,21 @@ h2, h3, h4{
 	height: 400px;
 	background-color: #a30000;
 }
-.box-3 h3{
+.box-3 h3, h4{
 	padding-top: 5px;
 	text-align: center;
 	color: #fff;
+}
+div .grupo-divs{
+	float: left;
+	padding: 15px;
+}
+.dUm{
+	background-color: #f26a23;
+}
+.dDres{
+	background-color: #fbce3b;
+}
+.dTres{
+	background-color: #E9320E;
 }
