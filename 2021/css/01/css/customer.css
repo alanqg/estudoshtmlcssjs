@@ -1,0 +1,22 @@
+/*
+	Desenvolvido por:  HospeSites;
+	Descrição:  Estudos Css W3Schools;
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+	 font-family: 'Lobster', cursive;
+	 font-size: 45px;
+	 color: #a30000;
+}
+h2{
+ 	font-family: 'Lobster', cursive;
+ 	font-size: 40px;
+ 	color: #E9320E;		
+}
