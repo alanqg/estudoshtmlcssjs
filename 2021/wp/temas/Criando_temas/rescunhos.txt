@@ -1,0 +1,2 @@
+A index do html original foi adionada no arquivo front-page.php.
+Fomra correta de chamar o css é pelo o arquivo functions.php, quando for fazer a chamada das funções sempre tomar cuidado para não []
