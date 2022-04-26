@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            background-color: #45a049;
+        }
+        div{
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+    <title>Formalários</title>
+</head>
+<body>
+    <h2>Usando Css para customizar o formulários HTML5</h2>
+    <div>
+        <form action="/active_page.php">
+            <label for="fnome">Primeiro Nome</label>
+            <input type="text" id="fname" name="pnome" placeholder="Seu nome">
+
+            <label for="lname">Sobrenome</label>
+            <input type="text" id="lname" name="snome" placeholder="Segundo Nome">
+
+
+            <label for="pais">Escolha o Pais</label>
+            <select name="pais" id="pais">
+                <option value="brasil">Brasil</option>
+                <option value="argentina">Argentina</option>
+                <option value="uruguai">Uruguai</option>
+            </select>
+           
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
