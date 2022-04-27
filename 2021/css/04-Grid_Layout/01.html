@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
     <style>
-        .grid-container{
+         .item1 { grid-area: header; }
+        .item2 { grid-area: menu; }
+        .item3 { grid-area: main; }
+        .item4 { grid-area: right; }
+        .item5 { grid-area: footer; }
+        .grid-container {
             display: grid;
-            grid-template-areas: 
-            'header header header header header']
-            'menu main main main right right'
-            'menu footer footer footer footer footer';
-            gap: 10px;
-            background-color: #2196f3;
-            padding: 10px;
-
+            grid-template-areas: none
+                'header header header header header'
+                'menu main main right right'
+                'menu footer footer footer footer';
+                gap: 10px;
+                background-color: #2196f3;
+                padding: 10px;
         }
-        .grid-container > div {
+        .grid-container > div{
             background-color: rgba(255, 255, 255, 0.8);
             text-align: center;
             padding: 20px 0;
-            font-size: 30px;
+            font-size: 30;
         }
     </style>
 </head>
