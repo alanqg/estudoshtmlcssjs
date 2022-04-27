@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02</title>
+    <style>
+        .grid-contianer{
+            display: grid;
+            gap:10px;
+            background-color: #2196f3;
+            padding: 10px;
+        }
+        .grid-tem {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+        .item1{
+            grid-column: 1 / span 2;
+            grid-row: 1;
+        }
+        .item2{
+            grid-column: 3;
+            grid-row: 1 / span 2;
+        }
+        .item5{
+            grid-column: 1 / span 3;
+            grid-row: 3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Layout de cindo itens</h1>
+    <div class="grid-contianer">
+        <div class="grid-tem item1">1</div>
+        <div class="grid-tem item2">2</div>
+        <div class="grid-tem item3">3</div>
+        <div class="grid-tem item4">4</div>
+        <div class="grid-tem item5">5</div>
+   </div>
+</body>
+</html>
