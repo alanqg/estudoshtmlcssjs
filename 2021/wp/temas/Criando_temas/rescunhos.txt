@@ -6,6 +6,13 @@ Link para criar icones aparti das fotos do PC.
 https://icomoon.io/  site criar icones totalmente personalizado com as fotos dos icones e seus CSS.
 
 
+Foi criado uma paga function-admin.php para criar um nova função dentro do painel wp, com icone do lado do menu.
+Links para acessar icones dentro da documenteação do WP
+https://developer.wordpress.org/resource/dashicons/#heading
+
+
+
+
 
 
 
