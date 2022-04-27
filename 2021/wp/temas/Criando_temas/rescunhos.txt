@@ -2,30 +2,9 @@
 
 Para mostrar erros de programção dentro da tela onde está fazendo a progrmação, basta deixar como verdeira na opção define( 'WP_DEBUG', true );
 
-Para ler toda a documentação referente a criação de temas WP, basta acessar o seguinte links:
-https://developer.wordpress.org/themes/getting-started/
+Link para criar icones aparti das fotos do PC.
+https://icomoon.io/  site criar icones totalmente personalizado com as fotos dos icones e seus CSS.
 
-Link para para acessar o medelo github da vídeo aula:
-https://github.com/imranhsayed/aquila
-
-Links para acessar a playlist do curso:
-https://github.com/imranhsayed/aquila
-
-Existem duas formas para chamar o arquivo header.php é footer, a primeiro forma que foi aprendido é a 
-<?php get_header(); ?>, mesma comando, mas mudando nome do arquivo serve para o arqvuivo footer, <php get_footer(); >?
-Segundo forma de faze a chamada dos arquivos é a seguinte <?php include_once 'header.php'; ?>, mesmo comando mudando somente o nome do arquivo para foote.php <?php includ_once 'footer.php'; ?>, todos esses comando não chamados do arquivo general-template.php (Depois estudar cada comando dentro do arquivo).
-Comando para a linguagem em: 
-<html lang="<?php language_attributes();>"> (Todo os comando foram explciado, nossa essa configuração de linguagem está dentro do arquivo general-template).
-Comando para chamar o padão de caracteres
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-
-
-?
-	  function add_code() {
-        return ...
-    }
-    add_action( ' wp_head', 'add_code' );
-?
 
 
 
