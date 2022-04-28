@@ -2,17 +2,13 @@
 
 Para mostrar erros de programção dentro da tela onde está fazendo a progrmação, basta deixar como verdeira na opção define( 'WP_DEBUG', true );
 
-Link para criar icones aparti das fotos do PC.
+#<>Link para criar icones aparti das fotos do PC.
 https://icomoon.io/  site criar icones totalmente personalizado com as fotos dos icones e seus CSS.
 
-
-Foi criado uma paga function-admin.php para criar um nova função dentro do painel wp, com icone do lado do menu.
-Links para acessar icones dentro da documenteação do WP
+#<>Links para acessar icones dentro da documenteação do WP
 https://developer.wordpress.org/resource/dashicons/#heading
 
-
-
-
-
-
+Foi instalado o servidor local localwp
+#<>Links para acessar para fazer downlaods
+https://localwp.com/
 
