@@ -5,19 +5,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>02</title>
 	<style>
-		#squere{
-			width: 20em;
-			height: 20em;
-			border: 2px inset gray;
-			margin-bottom: 1em;
-		}
-		button{
-			padding: .5em 2em;
-		}
+	button{
+		width: 150px;
+		height: 50px;
+		background-color: crimson;
+		color: #fff;
+		border-radius: 35px;
+	}
+	button:hover{
+		background-color: aqua;
+		color: black;
+	}
 	</style>
 </head>
 <body>
-<h1>Js Simples</h1>
 
+<div class="box-1">
+	<h1>Js Simples</h1>
+	<p id="demos">Pode esconder</p>
+	<button type="button" onclick="document.getElementById('demos').style.display='none'">Clique para esconder o texto</button>
+</div>
+
+
+<div class="box-1">
+	<h2>O que JS pode fazer?</h2>
+	<p>JS pode mostrar como ocultat elemtos<span>HTML</span></p>
+	<p id="p3" style="display: none; color: #906; font-size: 25px;">Olá JS</p>
+	<button type="button" onclick="document.getElementById('p3') .style.display='block'">Clique para mostrar o texto.</button>
+</div>
 </body>
 </html>
