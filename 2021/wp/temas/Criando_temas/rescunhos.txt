@@ -12,3 +12,8 @@ Foi instalado o servidor local localwp
 #<>Links para acessar para fazer downlaods
 https://localwp.com/
 
+#<>Link da pesquisa sobre como criar um tema so zero
+https://localwp.com/
+https://www.youtube.com/results?search_query=wordpress+theme+development
+
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="<?php language_attributes(); ?>">
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php bloginfo( 'name' ); ?></title>
+</head>
+<body <?php body_class(); ?>>
+
+<header class="site-header">
+    <!--Buscando o titulo do site, nome que foi dado ao fazer a instalação ou quando é editado no personalizar do tema-->
+    <h1><?php bloginfo( 'name' );  ?></h1>
+    <!--Segunda titulo para motrar a descrição do tema, descrição essa que será editada no personalizar do tema-->
+    <h4><?php bloginfo( 'description' ); ?></h4>
+</header>
