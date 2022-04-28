@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saída JS</title>
+</head>
+<body>
+    <h1>Exemplos de saída de dados em JS</h1>
+    <p>
+        As possibilidades de exibição com JS.<br>Maneiras para exibir esses dados.
+    </p>
+    <ol>
+        <li>innerHTML.</li>
+        <li>documeento_wrile().</li>
+        <li>window.alert().</li>
+        <li>conseole.log().</li>
+    </ol>
+    <h2>Usando o innerHTML</h2>
+    <p>
+        PAra acessar um elemento HTML JS pode usar o document.getElementById(nome-da-id)métado. <br>
+        O ID atribuido define o elemento HTMl. A innerHTML propriedade define o contúdo HTML:
+    </p>
+    <h2>Primeiro Exemplo com innerHTML</h2>
+    <p>Primeiro paragrafo sem comandos js com html, já segundo tem uma ID para somar dois valeres 5 + 6, resultado na tela. A sama de desses valeres é feito pelos comando innerHTML.</p>
+
+    <p id="demo1"></p>
+    <script>
+        document.getElementById("demo1").innerHTML = 5 + 6;
+    </script>
+</body>
+</html>
