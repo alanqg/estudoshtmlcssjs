@@ -1,0 +1,41 @@
+/*
+    /Desenvolvido por: HospeSites
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+}
+/*Área Home*/
+.home-01{
+    width: 100%;
+    height: 450px;
+    background-color: burlywood;
+}
+
+
+/*Áres Sobre*/
+.sobre-01{
+    width: 100%;
+    height: 450px;
+    background-color: cadetblue;
+}
+
+/*Áres blog*/
+.blog-01{
+    width: 100%;
+    height: 450px;
+    background-color: brown;
+}
+
+/*Áres contato*/
+.contato{
+    width: 100%;
+    height: 450px;
+    background-color: darkcyan;
+}
